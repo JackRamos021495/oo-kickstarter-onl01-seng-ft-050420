@@ -1,7 +1,7 @@
 class Project
   attr_reader :title
-  def initialize(title, @back_project)
+  def initialize(title)
     @title = title
-    @back_project = []
+    @back_projects = []
     end
 end
